@@ -1,0 +1,13 @@
+id_column: Id
+paths:
+  processed_data_dir: data/processed
+  raw_data_dir: data/raw
+  test_processed: data/processed/test_processed.csv
+  test_raw: data/raw/test.csv
+  train_processed: data/processed/train_processed.csv
+  train_raw: data/raw/train.csv
+target_column: SalePrice
+validation:
+  cv_folds: 5
+  random_state: 42
+  test_size: 0.2
